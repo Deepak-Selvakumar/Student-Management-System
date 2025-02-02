@@ -1,0 +1,330 @@
+﻿
+header {
+    background-color: rgba(248, 248, 248, 0.8);
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+    }
+    .b{
+       
+        
+    }
+    .b h6{
+        margin-left:280px;
+    }
+.breadcrumb {
+    margin: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+    .breadcrumb a {
+        text-decoration: none;
+        color: #555;
+        transition: color 0.3s ease;
+    }
+
+        .breadcrumb a:hover {
+            color: #007bff;
+        }
+
+
+
+        .breadcrumb a:last-child::after {
+            content: "";
+        }
+
+
+
+
+.head {
+    margin-left: 20px;
+}
+
+.bread {
+    background-color: #e9ecef;
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+}
+
+.a {
+    display: flex;
+}
+
+
+
+.b {
+    display: flex;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+}
+
+.pic {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+    .pic img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.b > div {
+    flex: 1;
+    text-align: center;
+}
+
+
+.buttonspn {
+    margin-left: 1100px;
+}
+
+.contain {
+    margin-top: 10px;
+}
+
+
+#previousButton, #nextButton {
+    border: 1px solid blue;
+    color: blue;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    #previousButton:hover, #nextButton:hover {
+        background-color: blue;
+        color: white;
+    }
+
+
+
+
+
+
+.a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+    .a .btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .a .btn:hover {
+            background-color: #0056b3;
+        }
+
+.b {
+    background-color: #dde9e7;
+    margin-left:0px;
+    width:1455px;
+    padding: 10px;
+    display:flex;
+    align-items:center;
+    border-radius: 5px;
+    margin-top: 20px;
+    height:40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+    .b h6 {
+        color: #09196d;
+    }
+
+
+
+.bread {
+    background-color: #e9ecef;
+    display: flex;
+    margin-top: 10px;
+    height: 40px;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+    .breadcrumb a:hover {
+        color: #007bff;
+    }
+
+
+
+
+.container-fluid {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    width: 100%; 
+
+}
+
+
+
+
+.a {
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+.b1, .b2 ,.b3 {
+    margin-top: 5px;
+}
+
+
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+/*DOWN DOWN*/
+
+#TextBox1,
+#TextBox2,
+#TextBox3,
+#DropDownList1,
+#DropDownList2,
+#VIEW,
+#Button2,
+#VIEW1 {
+    border: 1px solid blue;
+    outline: none;
+}
+
+#TextBox1,
+#TextBox2,
+#TextBox3,
+#DropDownList1,
+#DropDownList2 {
+    padding: 5px;
+    border-radius: 3px;
+    width: auto; /* Adjust this value as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+#VIEW,
+#Button2,
+#VIEW1 {
+    background-color: white;
+    color: blue;
+    padding: 5px 10px;
+    border: blue;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #VIEW:hover,
+    #Button2:hover,
+    #VIEW1:hover {
+        background-color: blue;
+        color: #e0e0e0;
+    }
+
+
+
+@media (min-width: 450px) and (max-width: 780px) {
+    header {
+        padding: 5px; 
+    }
+
+    .container-fluid {
+        padding: 10px;
+    }
+
+    table {
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    th, td {
+        padding: 5px; 
+    }
+
+    .a, .b {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #VIEW, #Button2, VIEW1 {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+@media (min-width: 450px) and (max-width: 780px) {
+
+    .b h6 {
+        font-size: 8px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+        color: #09196d;
+    }
+
+
+}

@@ -1,0 +1,291 @@
+﻿
+.nav-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 10px;
+}
+
+.nav-link {
+    flex: 1;
+}
+
+.stuad {
+    font-size: 36px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    /* Decrease the font size of stuad */
+    .stuad {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .col-md-6.text-end .btn {
+        padding: 5px 10px;
+        font-size: 6px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .form-label,
+    .form-control {
+        margin-bottom: 8px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-group.mb-4 {
+        width: 100%; /* Make the form groups occupy the full width */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .tab {
+        padding: 20px; /* Add some padding to the tab content */
+    }
+
+    /* Additional styling for labels and inputs in small screens */
+    .form-label,
+    .form-control {
+        width: 100%; /* Make labels and inputs occupy the full width */
+        margin-bottom: 10px; /* Add some space between fields */
+    }
+
+    /* Adjust spacing for some specific elements */
+    .nav-justified {
+        justify-content: center /* Align nav links to the left */
+    }
+
+    .nav-link.active {
+        margin-right: 10px; /* Add some space between active tab and next tab */
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Custom header style */
+.custom-header {
+    background: linear-gradient(to right, #0080bf, #00acdf);
+    color: #fff;
+}
+/* Hide tab content by default */
+.tab {
+    display: none;
+}
+
+
+.nav {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    background-color: #e9ecef;
+    border-radius: 4px;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+    .nav-link.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        background-color: #cfd8dc;
+    }
+
+/* Responsive media queries */
+
+@media (max-width: 828px) {
+    /* Media query for iPhone XR */
+
+    .stuad {
+        font-size: 24px;
+    }
+}
+
+
+
+/*header*/
+header {
+    background-color: rgba(248, 248, 248, 0.8);
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+    }
+
+/* Breadcrumbs */
+.breadcrumb {
+    margin: 20px;
+    font-size: 16px;
+    color: #555;
+    
+}
+
+    .breadcrumb a {
+        text-decoration: none;
+        color: #555;
+        transition: color 0.3s ease;
+    }
+
+        .breadcrumb a:hover {
+            color: #007bff;
+        }
+
+   
+
+    .breadcrumb a:last-child::after {
+        content: "";
+    }
+
+/* Faded background for the content area */
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.head{
+    margin-left:20px;
+}
+
+.bread{
+    background-color:#e9ecef;
+    display:flex;
+    margin-top:10px;
+    height:40px;
+    align-items:center;
+}
+
+.a{
+    display:flex;
+   
+}
+.pic img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 85px;
+}
+
+.b{
+    display:flex;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+}
+
+.pic {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+    .pic img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.b > div {
+    flex: 1;
+    text-align: center;
+}
+
+
+.buttonspn{
+    margin-left:1100px;
+    
+}
+
+.contain{
+    margin-top:10px;
+}
+
+
+#previousButton, #nextButton {
+    border: 1px solid blue;
+    color: blue;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    #previousButton:hover, #nextButton:hover {
+        background-color: blue;
+        color: white;
+    }
+
+
+    .a1{
+        display:flex;
+    }
+
+
+.read-only {
+    background-color: #f0f0f0; /* Gray color */
+    color: #555; /* Text color */
+}
+
+.tabledoc{
+    width:1260px;
+    margin-left:0px;
+}
+
+
+
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+table {
+    width: 100%;
+    margin-left: 0;
+}
+
+th, td {
+    padding: 5px;
+}
